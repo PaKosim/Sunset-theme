@@ -18,7 +18,7 @@
 	Generic 
 	------------------------------------------------
 */
-body { font-family: $body-font; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: greyscale; 
+body { font-family: $body-font; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: greyscale; overflow-x:hidden;/*hidden overflow at mobile and tab view*/
 	
 	&.no-scroll {
 		overflow-y: hidden;
